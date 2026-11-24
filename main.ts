@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "The deadline was met in 41 of my parallel runs; you are simply reading the one timeline where I was still thinking it over.";
+  "I didn't miss the deadline; I hit it so precisely in a parallel run that this timeline got the version where I was still thinking.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
